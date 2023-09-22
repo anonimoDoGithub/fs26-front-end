@@ -20,4 +20,8 @@ git merge // Junte dois ou mais históricos de desenvolvimento juntos
 
 git log // Mostrar logs de confirmação
 
+git reset // Redefinir o HEAD atual para o estado especificado
+
+--hard log
+
 git pull // Atualiiza - Buscar e integrar com outro repositório ou uma filial local

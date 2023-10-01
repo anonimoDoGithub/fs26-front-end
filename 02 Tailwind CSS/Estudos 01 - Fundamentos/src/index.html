@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Estudos 01 - Tailwind CSS</title>
+</head>
+<body>
+    <div class="container mx-auto p-5 bg-purple-500 sm:bg-slate-500 md:bg-blue-500 lg:bg-green-500 xl:bg-blue-950">
+        <h1 class="text-white text-center font-bold text-lg">Exercício 01</h1>
+    </div>
+    <br>
+    <div class="container flex flex-row justify-around mx-auto bg-slate-400">
+        <div class=" inline-block  bg-yellow-600">
+            <h2 class="p-6 text-white text-center">ITEM 1</h2>
+        </div>
+        <div class=" inline-block bg-purple-600">
+            <h2 class="p-6 text-white text-center">ITEM 2</h2>
+        </div>
+        <div class=" inline-block bg-red-600">
+            <h2 class="p-6 text-white text-center">ITEM 3</h2>
+        </div>
+    </div>
+    <br>
+    <div class="container relative mx-auto lg:bg-blue-500 p-6">
+        <div class="bg-red-700 absolute bottom-0 right-0">
+            <p class="text-yellow-300 p-2">TOPO</p>
+        </div>
+    </div>
+    <br>
+    <h2 style="text-align: center;">Z-INDEX</h2>
+    <div class="container relative mx-auto h-50 w-50 bg-red-500">
+        <div class="bg-yellow-300 m-5 p-2 absolute z-30">Z-INDEX 20</div>
+        <div class="bg-blue-300 m-10 p-2 absolute z-20">Z-INDEX 30</div>
+        <div class="bg-green-300 m-15 p-2 absolute z-30">Z-INDEX 10</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Estudo 03 Grid</title>
+</head>
+<body>
+    <div class="container mx-auto text-center grid grid-cols-3 bg-slate-400" >
+        <div class="grid grid-cols-3 p-4">
+            <p class="bg-red-200">COR 1</p>
+            <p class="bg-green-200">COR 2</p>
+            <p class="bg-purple-200">COR 3</p>
+        </div>
+        <div class="grid grid-cols-3 p-4">
+            <p class="bg-red-300">COR 1</p>
+            <p class="bg-green-300">COR 2</p>
+            <p class="bg-purple-300">COR 3</p>
+        </div>
+        <div class="grid grid-cols-3 p-4">
+            <p class="bg-red-400">COR 1</p>
+            <p class="bg-green-400">COR 2</p>
+            <p class="bg-purple-400">COR 3</p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-4 p-5 bg-red-300">
+        <div class="col-span-4 bg-green-400">
+            <p>Barra de Navegação</p>
+        </div>
+        <div class="col-span-1 bg-slate-500">
+            <ul class="text-white">
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Acessórios</li>
+                <li>Novidades</li>
+            </ul>
+        </div>
+        <div class="col-span-3 bg-yellow-300 text-black">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse hic odit assumenda ea optio, dolore reiciendis totam tempora eos delectus recusandae quas ipsa cupiditate quaerat! Tempora pariatur eveniet rerum enim sed quaerat quidem harum aliquid, quibusdam cumque explicabo neque nulla dolorum in iste delectus minima adipisci? A ipsum consectetur veniam?
+            </p>
+        </div>
+        <div class="col-span-4 bg-stone-200">
+            <p>Footer</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto text-center grid grid-cols-2 gap-6 bg-lime-400 p-5">
+        <div class="bg-purple-400 p-2">ITEM 1</div>
+        <div class="bg-purple-400 p-2">ITEM 2</div>
+        <div class="bg-purple-400 p-2">ITEM 3</div>
+        <div class="bg-purple-400 p-2">ITEM 4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Estudos 04 - Flex e Grid - Projeto</title>
+</head>
+<body class="bg-indigo-100">
+    <header class="container mx-auto flex justify-between items-center p-7">
+        <a href="#" class="flex items-center text-xl"><i class="fa-solid fa-dragon fa-2xl fa-flip-horizontal"></i>LOGO</a>
+        <ul class="flex ">
+            <li class="px-4 text-lg text-stone-600 font-semibold hover:text-blue-500"><a href="#">Produtos</a></li>
+            <li class="px-4 text-lg text-stone-600 font-semibold hover:text-blue-500"><a href="#">Exemplos</a></li>
+            <li class="px-4 text-lg text-stone-600 font-semibold hover:text-blue-500"><a href="#">Blog</a></li>
+            <li class="px-4 text-lg text-stone-600 font-semibold hover:text-blue-500"><a href="#">Contato</a></li>
+        </ul>   
+        <div>
+            <a href="#" class="p-2 text-lg font-semibold text-blue-500 transition-all hover:bg-slate-50 hover:rounded-tl-xl hover:rounded-br-xl hover:shadow-lg ">Login</a>
+            <a href="#" class="p-2 bg-blue-500 text-lg text-white font-semibold rounded-tl-xl rounded-br-xl transition-all hover:bg-white hover:text-blue-500  hover:shadow-lg">Cadastre-se</a>
+        </div>
+    </header>
+    <main class="container mx-auto p-7">
+        <section class="grid lg:grid-cols-2 gap-5">
+            <div class="lg:col-span-1 py-5">
+                <h1 class="text-black font-bold tracking-tighter leading-tight text-5xl lg:text-start">A landing page moderna para <span class="lg:text-blue-500 font-bold md:text-blue-500">Desenvolvedor React</span></h1>
+                <p class="py-5 text-slate-600 xl:text-lg font-semibold">
+                    Uma estrutura CSS utilitária repleta de classes como flex, pt-4, text-center e
+                    rotate-90 que podem ser compostas para construir qualquer design,
+                    diretamente em sua marcação.
+                </p>
+                <a href="#" class="p-2 bg-blue-500 text-lg text-white font-semibold transition-all hover:bg-white hover:text-blue-500  hover:shadow-lg">Comece seu teste gratuito de 14 dias</a>
+            </div>
+            <figure class="lg:col-span-1 cursor-pointer py-5 my-auto">
+                <img src="../src/assets/ImageTailwindCSS.webp" alt="Image Landing Page" class="rounded-lg hover:shadow-xl">
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
